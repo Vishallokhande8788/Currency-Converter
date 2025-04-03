@@ -19,6 +19,20 @@ This is a simple Currency Converter application built using React.js and Tailwin
 This project uses the **ExchangeRate-API** to fetch real-time currency exchange rates.
 - API Endpoint: `https://api.exchangerate-api.com/v4/latest/{currency}`
 
+## Deployment
+This project is deployed on **Netlify**. You can access the live version here:
+- **Live Demo**: [Currency Converter](https://currency-converter8788.netlify.app/)
+
+### Deploying on Netlify
+To deploy the project on Netlify, follow these steps:
+1. Push your code to GitHub.
+2. Sign in to [Netlify](https://www.netlify.com/).
+3. Click on **"New site from Git"**.
+4. Select your repository and configure build settings:
+   - **Build Command**: `npm run build`
+   - **Publish Directory**: `dist` (for Vite projects)
+5. Click **"Deploy"** and wait for Netlify to build and deploy your site.
+
 ## Installation
 To run the project locally, follow these steps:
 
